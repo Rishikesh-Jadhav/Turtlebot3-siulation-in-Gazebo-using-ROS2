@@ -1,0 +1,23 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "/opt/ros/galactic/include",
+                "/home/ksp/final_ws/src/enpm809y_FinalFall2022/final/bot_controller/include/**",
+                "/home/ksp/final_ws/src/enpm809y_FinalFall2022/final/final_plugins/include/**",
+                "/home/ksp/final_ws/src/enpm809y_FinalFall2022/final/target_reacher/include/**",
+                "/home/ksp/final_ws/src/enpm809y_FinalFall2022/final/tb3_gazebo/include/**",
+                "/home/ksp/final_ws/src/enpm809y_FinalFall2022/final/world_odom_broadcaster/include/**",
+                "/home/ksp/final_ws/src/odom_updater/include/**"
+            ],
+            "defines": [],
+            "compilerPath": "/usr/bin/gcc",
+            "cStandard": "gnu17",
+            "cppStandard": "gnu++14",
+            "intelliSenseMode": "linux-gcc-x64"
+        }
+    ],
+    "version": 4
+}

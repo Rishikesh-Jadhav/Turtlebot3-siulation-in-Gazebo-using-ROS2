@@ -1,0 +1,33 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        
+        
+        "/opt/ros/galactic/include/**",
+        "/home/ksp/final_ws/install/tb3_gazebo/include/**",
+        "/home/ksp/final_ws/install/target_reacher/include/**",
+        "/home/ksp/final_ws/install/odom_updater/include/**",
+        "/home/ksp/final_ws/install/ros2_aruco_interfaces/include/**",
+        "/home/ksp/final_ws/install/final_plugins/include/**",
+        "/home/ksp/final_ws/install/bot_controller/include/**",
+        "/home/ksp/final_ws/src/enpm809y_FinalFall2022/final_group19/bot_controller/include/**",
+        "/home/ksp/final_ws/src/enpm809y_FinalFall2022/final_group19/final_plugins/include/**",
+        "/home/ksp/final_ws/src/enpm809y_FinalFall2022/final_group19/target_reacher/include/**",
+        "/home/ksp/final_ws/src/enpm809y_FinalFall2022/final_group19/tb3_gazebo/include/**",
+        "/home/ksp/final_ws/src/enpm809y_FinalFall2022/final_group19/world_odom_broadcaster/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}

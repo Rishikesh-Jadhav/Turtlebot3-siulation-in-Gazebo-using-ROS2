@@ -1,0 +1,84 @@
+\hypertarget{classTargetReacher}{}\doxysection{Target\+Reacher Class Reference}
+\label{classTargetReacher}\index{TargetReacher@{TargetReacher}}
+
+
+Inheritance diagram for Target\+Reacher\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=166pt]{classTargetReacher__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Target\+Reacher\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=166pt]{classTargetReacher__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classTargetReacher_aee66025ee0e4e97444481d0f95ecf3f1}{Target\+Reacher}} (std\+::shared\+\_\+ptr$<$ Bot\+Controller $>$ const \&bot\+\_\+controller)
+\begin{DoxyCompactList}\small\item\em ctor of class \mbox{\hyperlink{classTargetReacher}{Target\+Reacher}}. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classTargetReacher_a3ba3e04e4f7b7a3186b0ffb96e3dd5f8}{aruco\+\_\+callback}} (const std\+::shared\+\_\+ptr$<$ ros2\+\_\+aruco\+\_\+interfaces\+::msg\+::\+Aruco\+Markers $>$ aruco\+\_\+msg)
+\begin{DoxyCompactList}\small\item\em aruco callback funtion is used to determine final goal coordiantes depending on the marker id \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classTargetReacher_a4b088cc11f849376cb0d3076f925ffd7}{odom\+\_\+callback}} (const std\+::shared\+\_\+ptr$<$ nav\+\_\+msgs\+::msg\+::\+Odometry $>$ msg)
+\begin{DoxyCompactList}\small\item\em function used for broadcasting a frame final\+\_\+destination in the frame origin. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classTargetReacher_aee66025ee0e4e97444481d0f95ecf3f1}\label{classTargetReacher_aee66025ee0e4e97444481d0f95ecf3f1}} 
+\index{TargetReacher@{TargetReacher}!TargetReacher@{TargetReacher}}
+\index{TargetReacher@{TargetReacher}!TargetReacher@{TargetReacher}}
+\doxysubsubsection{\texorpdfstring{TargetReacher()}{TargetReacher()}}
+{\footnotesize\ttfamily Target\+Reacher\+::\+Target\+Reacher (\begin{DoxyParamCaption}\item[{std\+::shared\+\_\+ptr$<$ Bot\+Controller $>$ const \&}]{bot\+\_\+controller }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+ctor of class \mbox{\hyperlink{classTargetReacher}{Target\+Reacher}}. 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ in}}  & {\em bot\+\_\+controller} & a shared pointer with object of class Bot\+Controller. defines the Node \char`\"{}\+Target\+\_\+reacher\char`\"{} \\
+\hline
+\end{DoxyParams}
+When running a node in a multi-\/threaded Executor, R\+O\+S2 offers callback groups for controlling the execution of different callbacks.
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classTargetReacher_a3ba3e04e4f7b7a3186b0ffb96e3dd5f8}\label{classTargetReacher_a3ba3e04e4f7b7a3186b0ffb96e3dd5f8}} 
+\index{TargetReacher@{TargetReacher}!aruco\_callback@{aruco\_callback}}
+\index{aruco\_callback@{aruco\_callback}!TargetReacher@{TargetReacher}}
+\doxysubsubsection{\texorpdfstring{aruco\_callback()}{aruco\_callback()}}
+{\footnotesize\ttfamily void Target\+Reacher\+::aruco\+\_\+callback (\begin{DoxyParamCaption}\item[{const std\+::shared\+\_\+ptr$<$ ros2\+\_\+aruco\+\_\+interfaces\+::msg\+::\+Aruco\+Markers $>$}]{aruco\+\_\+msg }\end{DoxyParamCaption})}
+
+
+
+aruco callback funtion is used to determine final goal coordiantes depending on the marker id 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ in}}  & {\em aruco\+\_\+msg} & a shared pointer of type ros2\+\_\+aruco\+\_\+interfaces\+::msg\+::\+Aruco\+Markers a subscriper to this topics helps to get the marker id ~\newline
+ \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classTargetReacher_a4b088cc11f849376cb0d3076f925ffd7}\label{classTargetReacher_a4b088cc11f849376cb0d3076f925ffd7}} 
+\index{TargetReacher@{TargetReacher}!odom\_callback@{odom\_callback}}
+\index{odom\_callback@{odom\_callback}!TargetReacher@{TargetReacher}}
+\doxysubsubsection{\texorpdfstring{odom\_callback()}{odom\_callback()}}
+{\footnotesize\ttfamily void Target\+Reacher\+::odom\+\_\+callback (\begin{DoxyParamCaption}\item[{const std\+::shared\+\_\+ptr$<$ nav\+\_\+msgs\+::msg\+::\+Odometry $>$}]{msg }\end{DoxyParamCaption})}
+
+
+
+function used for broadcasting a frame final\+\_\+destination in the frame origin. 
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+include/target\+\_\+reacher/\mbox{\hyperlink{target__reacher_8h}{target\+\_\+reacher.\+h}}\item 
+src/target\+\_\+reacher.\+cpp\end{DoxyCompactItemize}
